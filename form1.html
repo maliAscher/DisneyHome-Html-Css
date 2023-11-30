@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>טופס הרשמה</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" type="image/gif" href="../פרוייקט סופי/תמונות רקע+לוגו/ללא רקע לוגו.png " alt="  של הלוגו" width="50vh" height="50vh" />
+    <link href="StyleSheetkipling.css" rel="stylesheet" />
+</head>
+<body dir="rtl" class="hide-scroll body1">
+    <!-- לשנות את הקישור -->
+    <form action="finish.html">
+        <fieldset>
+         <h1 class="title">פרטים אישיים:</h1>
+            <!-- שם פרטי: -->
+            <input type="text" placeholder="שם פרטי" maxlength="10" required/><br />
+            <br />
+           <!-- שם משפחה: -->
+            <input type="text" placeholder="שם משפחה" maxlength="10" required/><br />
+            <br />
+            <!-- מספר טלפון: -->
+            <input type="text" id="lname" name="lname" pattern="[0-9]{7}" maxlength="7" required
+                placeholder="מספר טלפון "/>
+             <select name="מספר טלפון">
+                <option value="050">050</option>
+                <option value="051">051</option>
+                <option value="052">052</option>
+                <option value="053">053</option>
+                <option value="054">054</option>
+                <option value="055">055</option>
+                <option value="058">058</option>
+                <option vallue="077">077</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option vallue="08">08</option>
+                <option vallue="09">09</option>
+            </select>
+            <br />
+            <br/>
+            <!-- עיר: -->
+            <input type="text" required placeholder="הקש עיר" /><br />
+            <br />
+            <!-- רחוב: -->
+            <input type="text" placeholder="הכנס רחוב" required /> <br /> 
+            <br />
+            <!-- מספר בית: -->
+            <input type="text" maxlength="10" placeholder="הכנס מס בניין" required /><br />
+            <br />
+            <!-- כתובת מייל: -->
+           <input type="email" id="email" name="email" placeholder="הכנס מייל"> <br />
+            <br/>
+            
+             </br>
+             <h1 class="title">פרטי אשראי:</h1>
+                <!-- תעודת זהות של בעל הכרטיס: -->
+                <input type="text" id="lname" name="lname" maxlength="9"  placeholder="הכנס ת'ז של בעל הכרטיס" required><br>
+                <br />
+                <!-- מספר כרטיס אשראי: -->
+                <input type="text" maxlength="16" placeholder=" הכנס מספר כרטיס אשראי " required /> <br />
+                <br />
+                סוג כרטיס:
+                <br />
+                <input name="rd" type="radio" />
+                <img class="vcard"src="../אשראי/ויזהט.jpg" />
+                <input name="rd" type="radio" />
+                <img class="vcard" src="../אשראי/ישראכרט.jpg" />
+                <input name="rd" type="radio" />
+                <img class="vcard" src="../אשראי/מאסטרכארד.jpg" />
+                <br />
+                <br />
+                <!-- שלוש ספרות בגב הכרטיס: -->
+                <input type="text" maxlength="3" placeholder=" הכנס 3 ספרות בגב הכרטיס " required /> </br>
+                <br />
+                <!-- תוקף: -->
+                <input type="date" placeholder="  הכנס תוקף " required /></br>
+                <br />
+                <input type="reset" value="נקה טופס" />
+                <br />
+                <br />
+                <input type="submit" value="בצע הזמנה" />
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+        
+
+          

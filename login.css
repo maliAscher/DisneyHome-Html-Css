@@ -1,0 +1,124 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}     
+/* גודל התבנית של המייל והשם המלא */
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  /* border:  1px solid (212, 30, 30); */
+  box-sizing: border-box;
+}
+
+/* עיצוב כפתור האישור */
+button {
+  background-color: rgba(216, 177, 106, 0.52); 
+  color: white; 
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 25px;
+}
+/* עושה שקיפות כשעוברים על הכפתור */
+button:hover {
+  opacity: 0.8;
+}
+
+/* עיצובים נוספים לכפתור הביטול */
+.cancelbtn {
+  /* width: auto;
+  padding: 10px 18px; */
+  background-color: #f44336;
+}
+
+/* ממרכז את התמונה וממקם את לחצן הביטול */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+/* עיצוב תמונת האווטר */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* עיצוב הרקע */
+.modal {
+  position: fixed; /*שישאר במקום */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* רוחב מלא */
+  height: 100%; /* גובה מלא */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #000000;
+  margin: 5% auto 15% auto; /* 5% מלמעלה ו15%מלמטה  */
+  border: 1px solid #888;
+  width: 50%; /* רוחב הפרטי התחברות */
+}
+
+/* כפתור הסגירה */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+/* עובר כל הכפתור סגירה */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* מוסיף זום לאנימציה */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* משנה את הסגנונות */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/* עיצוב הכתב */
+.color{
+  color: #f1f1f1;
+  font-size: 18px;
+}

@@ -1,0 +1,48 @@
+.body1{
+    background-image:url(./reg.png); 
+    background-repeat:repeat;
+    background-size: cover; 
+    background-position:center,relative;
+    font-size:16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
+    line-height: 100%;
+    text-align:center; 
+    font-weight:bolder ;
+
+}
+/* עיצוב המסגרת */
+ fieldset{
+position:center;
+margin:10% 35% 5% 35%;
+border: 0.5ex solid;
+background-color:white;
+border-radius: 2.5vw;
+
+}
+/* עיצוב כותרת */
+.title{
+ font-size:25px;               
+ 
+}
+/* עיצוב גודל כרטיסי האשראי */
+.vcard{
+  height: 3%;
+  width: 6%;  
+}
+/* הורדת הגלילה */
+.hide-scroll::-webkit-scrollbar {
+  display:none;
+}
+.hide-scroll {
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
+/* עיצוב התמונה */
+.img{
+  display:block;
+  margin-right: auto;
+  margin-left: auto; 
+  width: 60%;
+  height: auto;
+}
