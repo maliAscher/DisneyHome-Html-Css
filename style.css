@@ -10,8 +10,14 @@
     margin:auto;
     line-height: 100%;
     text-align:center; 
-  
  }
+ ::-webkit-scrollbar {
+  display: none;  /* סתירת סרגל הגלילה ב-Chrome וב-Safari */
+}
+
+body {
+  scrollbar-width: none; /* סתירת סרגל הגלילה ב-Firefox */
+}
  /* כיתוב מוצרים */
 .table-text{
   color:white;
